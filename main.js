@@ -36,6 +36,8 @@ const emailInput=document.querySelector('#email');
            li.appendChild(document.createTextNode(`${nameInput.value}
            :${emailInput.value}`));
            userlist.appendChild();
+        =  nameInput.value='';
+        nameInput.value=
         }))
        }
 
